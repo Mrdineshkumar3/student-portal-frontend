@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&family=Sora:wght@100..800&display=swap');
+
+.teko-sty {
+    font-family: "Teko", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+.sora-sty {
+    font-family: "Sora", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+.back{
+    background:url(fantasy-anime.jpg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.blu{
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+   
+}
+.place::placeholder{
+    color: rgba(255, 255, 255, 0.685);
+}
+.reg{
+    font-family: "Sora", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.bgl{
+    background: linear-gradient(90deg,rgb(4, 177, 64), rgb(2, 65, 13));
+}
+table,th,td{
+    border: 1px solid white;
+    padding: 10px;
+}
+.backg{
+    background: linear-gradient(35deg,#68c260, #a1d255);
+}
+.han{
+animation-name: anime1;
+animation-duration: 1s;
+animation-timing-function: ease-in-out;
+}
+.han1{
+    animation-name: anime2;
+    animation-duration: 1.3s;
+    animation-timing-function: ease-in-out;
+   
+}
+.han2{
+    animation-name: anime2;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    
+    }
+.han3{
+    animation-name: anime3;
+    animation-duration: 1.9s;
+    animation-timing-function: ease-in-out;
+}
+.han4{
+    animation-name: anime4;
+animation-duration: 1s;
+animation-timing-function: ease-in-out;
+}
+.han5{
+    animation-name: anime5;
+animation-duration: 1.4s;
+animation-timing-function: ease-in-out;
+}
+@keyframes anime1 {
+    0%{
+        transform: translateY(200px) ;
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes anime2 {
+    0%{
+        transform: translateY(300px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes anime3 {
+    0%{ 
+        
+        transform: translateY(500px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes anime4 {
+    0%{ 
+        
+        transform: translateY(100px) rotate(-15deg);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px) rotate(-15deg);
+        opacity: 1;
+    }
+}
+@keyframes anime5 {
+    0%{ 
+        
+        transform: translateY(140px) rotate(10deg);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px) rotate(10deg);
+        opacity: 1;
+    }
+}
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.bob{
+    box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.088);
+    animation: animezoom .7s ease-in-out;
+}
+@keyframes animezoom {
+    0%{
+        transform: scale(.6);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+}
+.shad{
+    box-shadow: 1px 1px 7px rgba(128, 128, 128, 0.132);
+}
+::-webkit-scrollbar{
+    appearance: none;
+    display: none;
+}
+
+.botton0 {
+    border: none;
+    display: flex;
+    padding: 0.75rem 1.5rem;
+    background-color: #49cf3d;
+    color: #ffffff;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 0.5rem;
+    user-select: none;
+    gap: 0.75rem;
+    box-shadow:
+      0 4px 6px -1px #488aec31,
+      0 2px 4px -1px #488aec17;
+    transition: all 0.6s ease;
+  }
+  
+  .botton0:hover {
+    box-shadow:
+      0 10px 15px -3px #488aec4f,
+      0 4px 6px -2px #488aec17;
+  }
+  
+  .botton0:focus,
+  .botton0:active {
+    opacity: 0.85;
+    box-shadow: none;
+  }
+  
+  .botton0 svg {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  
+  /* From Uiverse.io by Creatlydev */ 
+/* From Uiverse.io by ZacharyCrespin */ 
+.button2 {
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    padding: 6px 20px;
+    border-radius: 10px;
+    background: white;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: #49cf3d;
+  }
+  
+  .button2:hover {
+    background: white;
+  }
+  
+  .button2 > svg {
+    width: 34px;
+    margin-left: 10px;
+    transition: transform .3s ease-in-out;
+  }
+  
+  .button2:hover svg {
+    transform: translateX(5px);
+  }
+  
+  .button2:active {
+    transform: scale(0.95);
+  }
+  
+  
+  /* From Uiverse.io by cssbuttons-io */ 
+  .button3 {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: black;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    background: black;
+    transform: scale(0.7);
+    margin-left: -30px;
+    font-size: 19px;
+   }
+   @media screen and (min-width: 1536px)  {
+  .button3{
+    margin-left: 0px;
+  }
+   
+   }
+   
+   .button3, .button3 span {
+    transition: 200ms;
+   }
+   
+   .button3 .text {
+    transform: translateX(35px);
+    color: white;
+    font-weight: bold;
+   }
+   
+   .button3 .icon {
+    position: absolute;
+    border-left: 1px solid white;
+    transform: translateX(110px);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   
+   .button3 svg {
+    width: 15px;
+    fill: #eee;
+   }
+   
+   .button3:hover {
+    background: black;
+   }
+   
+   .button3:hover .text {
+    color: transparent;
+   }
+   
+   .button3:hover .icon {
+    width: 150px;
+    border-left: none;
+    transform: translateX(0);
+   }
+   
+   .button3:focus {
+    outline: none;
+   }
+   
+   .button3:active .icon svg {
+    transform: scale(0.8);
+   }
+
+
+   .button4 {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: #68c260;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    background: #68c260;
+    transform: scale(0.7);
+    
+    font-size: 19px;
+   }
+   
+   .button4, .button4 span {
+    transition: 200ms;
+   }
+   
+   .button4 .text {
+    transform: translateX(35px);
+    color: white;
+    font-weight: bold;
+   }
+   
+   .button4 .icon {
+    position: absolute;
+    border-left: 1px solid white;
+    transform: translateX(110px);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   
+   .button4 svg {
+    width: 15px;
+    fill: #eee;
+   }
+   
+   .button4:hover {
+    background: #68c260;
+   }
+   
+   .button4:hover .text {
+    color: transparent;
+   }
+   
+   .button4:hover .icon {
+    width: 150px;
+    border-left: none;
+    transform: translateX(0);
+   }
+   
+   .button4:focus {
+    outline: none;
+   }
+   
+   .button4:active .icon svg {
+    transform: scale(0.8);
+   }
+   .aaa .some{
+    transform: translateY(-100px) scale(0.8);
+   }
+   .aaa .some.active{
+   animation: xxv 3.2s ease-in;
+   }
+    @keyframes xxv {
+      
+        0%{
+            transform: translateY(-100px) scale(0.8);
+        }
+        25%{
+            transform: translateY(0px) scale(0.8);
+        }
+        50%{
+            transform: translateY(0px) scale(0.8);
+        }
+        75%{
+            transform: translateY(0px) scale(0.8);
+        }
+        100%{
+            transform: translateY(-100px) scale(0.8);
+        }
+    } 
+    @media screen and (max-width: 713px){
+        .wwq{ padding: 10px 24px;
+
+        }
+   .www{
+    width: 70px;
+   }
+   .wwi{
+    width: 200px;
+   }
+    }
+    .fuc{
+        animation: aziz 0.6s ease-in-out;
+
+    }
+    @keyframes aziz {
+        0%{
+         transform: scale(.6);
+        }
+      100%{
+        transform: scale(1);
+      }
+        
+    }
+    .doing{
+        box-shadow: 2px 2px 5px rgba(13, 14, 13, 0.071);
+
+    }
