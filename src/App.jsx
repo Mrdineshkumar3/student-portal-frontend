@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+
 import './App.css'
 import Signup from './component/Signup'
 import Login from './component/Login'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Homepage from './component/Homepage'
+
 import EmailError from './component/EmailError'
 import Exists from './component/Exists'
 import Update from './component/Update'
