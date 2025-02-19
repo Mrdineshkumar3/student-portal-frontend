@@ -57,7 +57,7 @@ const handledelte = (id) =>{
             <div className='grid max-sm:grid-cols-1 max-lg:grid-cols-2 grid-cols-3 p-10  gap-10  max-2xl:p-5 max-2xl:gap-5  '>
                 {studentarrayq.map((item,index)=>{
                     return<>
-                    <div className='bg-white rounded-md max-sm:flex max-sm:items-center max-sm:justify-center max-md:flex-col'>
+                    <div className='bg-white rounded-md max-sm:flex max-sm:items-center max-sm:justify-center max-md:flex-col neo'>
                         <div className='p-10 flex max-sm:gap-10  max-2xl:gap-4 gap-10  items-center'>
                         <img src={profile} alt="profile image" className='w-[100px]' />
                         <div className='flex  text-gray-600 font-[500] text-[20px]'> <p className=''><p className='pl-4'>{item.sname}</p></p></div>
