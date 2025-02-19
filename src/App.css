@@ -3,10 +3,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&family=Sora:wght@100..800&display=swap');
 .neo{
-    border-radius: 6px;
-background: #F8F8F8;
-box-shadow: inset -5px -5px 7px #d3d3d3,
-            inset 5px 5px 7px #ededed;
+border-radius: 6px;
+background: #fafafa;
+box-shadow: inset -5px -5px 7px #ebebeb,
+            inset 5px 5px 7px #ffffff;
 }
 .teko-sty {
     font-family: "Teko", serif;
